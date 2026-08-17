@@ -34,3 +34,15 @@ datas/IPAGearShaft_MINE_overlapPrevent_Uniform_2Heights/
 datas/IPAGearShaft_MINE_overlapPrevent_leastPoints/
 datas/IPAGearShaft_part_1/
 datas/IPARingScrew_part_1/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Editor / notebook / merge cruft
+.vscode/
+.ipynb_checkpoints/
+.gitignore.orig
+
+# Trained model checkpoints (large, not trivially reproducible — keep a copy outside git)
+Segmentation/checkpoint/
