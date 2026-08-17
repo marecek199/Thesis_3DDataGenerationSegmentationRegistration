@@ -46,3 +46,7 @@ __pycache__/
 
 # Trained model checkpoints (large, not trivially reproducible — keep a copy outside git)
 Segmentation/checkpoint/
+
+# Generated synthetic dataset renders (reproducible from DatasetGeneration/synthethicDataGener.py + TJoin.stl)
+DatasetGeneration/data/Generated_Dataset_Test/rgb/
+DatasetGeneration/data/Generated_Dataset_Test/train_pointcloud/
